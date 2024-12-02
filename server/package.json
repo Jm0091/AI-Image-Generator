@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ver for handling API requests with image processing and database storage.",
+  "author": "Jems Chaudhary",
+  "main": "index.js",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["express", "mongodb", "cloudinary", "REST API", "Node.js", "backend"],
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "openai": "^4.73.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
